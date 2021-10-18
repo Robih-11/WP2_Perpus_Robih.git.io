@@ -27,12 +27,15 @@
         <label for="Namamtk" class="placeholder">Nama MTK</label>
       </div>
       <div class="input-container ic2">
-          <select name="sks" id="sks">
+        <select name="sks" id="sks" class="input" type="text" placeholder=" " />
+          <!-- <select name="sks" id="sks"> -->
               <option value="">Pilih SKS</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
+          <div class="cut"</div>
+          <label for="sks" class="placeholder">Pilih SKS</label>
           </select>
         </div>
       <button type="text" class="submit">submit</button>
